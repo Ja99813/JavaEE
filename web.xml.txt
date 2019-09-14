@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+    <servlet>
+        <servlet-name>HelloServlet</servlet-name>
+        <servlet-class>com.servlet.test.HelloServlet</servlet-class>
+        <servlet-mapping>
+            <servlet-name>HelloServlet</servlet-name>
+            <url-patten>/hello</url-patten>
+
+        </servlet-mapping>
+        <servlet>
+        <servlet-name>login</servlet-name>
+        <serlvet-class>com.servlet.login.login</serlvet-class>
+        </servlet>
+        <sevlet-mapping>
+        <serlet-name>login</serlet-name>
+        <url-patten>/login</url-patten>
+        </sevlet-mapping>
+
+    </servlet>
+</web-app>
